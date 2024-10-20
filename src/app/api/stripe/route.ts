@@ -4,7 +4,7 @@ import { NextResponse } from 'next/server';
 import { createOrder, updateGameQuantity } from './../../../libs/apis';
 
 const stripe = new Stripe(process.env.STRIPE_SECRET_KEY as string, {
-	apiVersion:'2024-06-20',
+	apiVersion:'2024-09-30.acacia',
 });
 
 import sanityClient from '@/libs/sanity';
