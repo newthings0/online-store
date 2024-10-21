@@ -40,6 +40,7 @@ const CarouselSlider: FC<CarouselSliderProps> = (props) => {
     }, interval);
 
     return () => clearInterval(timer);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [interval, currentImageIndex]);
 
   return (

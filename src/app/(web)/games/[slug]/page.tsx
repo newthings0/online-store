@@ -1,5 +1,3 @@
-"use client";
-
 import GameDetailsClient from "@/components/GameDetails/GameDetailsClient";
 import GameDetailsServer from "@/components/GameDetails/GameDetailsServer";
 
