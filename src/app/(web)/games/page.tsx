@@ -16,7 +16,7 @@ const Games = async (props: {}) => {
           Checkout our latest collection of games
         </p>
 
-        <div className="flex rounded gap-8 flex-wrap py-10">
+        <div className="flex rounded gap-7 flex-wrap py-10">
           {games.map((game) => (
             <GameCard
               key={game._id}
